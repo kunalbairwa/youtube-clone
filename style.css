@@ -1,0 +1,549 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body{
+    background-color: #121212;
+}
+
+.container{
+     display: flex;
+
+    height: 100vh;
+    
+
+   
+}
+
+.main{ 
+
+ 
+    background-color: #121212;
+    flex: 1;
+    /* border-radius: 1rem; */
+    overflow: auto;
+    /* padding-right: 0.5rem;
+    padding-left: 0.5rem; */
+    
+}
+
+
+.nev{
+    margin-right: 500px;
+
+}
+
+
+/* stickynav */
+.stickynav{
+
+    top: 0;
+    position: sticky;
+    background-color:#121212;
+    justify-content: space-between;
+    align-items: center;
+    height: 160px;
+    padding: 1rem 0 1rem;
+    z-index: 10;
+}
+.input {
+
+    height: 100px;
+
+    border-radius: 5rem;
+
+}
+
+input{
+
+    float: right;
+    
+}
+button{
+    float: right;
+    cursor: pointer;
+}
+
+
+.acc{
+    width: 200px;
+    height: 100px;
+    margin-right: 60px ;
+    margin-top: 15px;
+    background-color: #121212;
+    float: right;
+    display: flex;
+    cursor: pointer;
+
+
+}
+
+.acc img{
+    border-radius: 50px;
+    float: right;
+}
+.bell{
+    margin-top: -10px;
+    margin-left: -40px;
+}
+.create{
+    margin-top: -15px;
+}
+.irose{
+    margin-left: -20px;
+}
+
+
+
+/* the left side part */
+.side{
+        
+    background-color: #121212;
+    width: 130px;
+    height: 100vh;
+    
+   
+    
+}
+
+
+.three{
+
+    margin: 5px;
+    margin-top: 10px;
+    margin-left: -1px;
+}
+.home {
+    /* margin-top: -140px; */
+    margin: 5px;
+    width: 50px;
+    margin-left: -1px;
+
+}
+.shorts{
+    margin: 2px;
+    margin-top: -18px;
+    /* margin-right: 50px;  */
+    margin-right: -5px;
+
+
+}
+.subcriptions{
+
+    margin-left: 1px;
+    margin-top: 1px;
+    /* margin-left: -1px; */
+
+     
+}
+
+.library{
+    margin-right: 0px;
+    margin-top: 5px;
+}
+
+
+
+.burgur{
+
+    margin: 40px auto;
+    margin-right: 40px;  
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: #121212;
+    
+}
+
+.burgur:link{
+
+    background-color: #121212;
+}
+.burgur:hover{
+
+    background-color:#333;
+
+}
+    
+
+.homeie{
+
+    margin: 20px auto;
+    margin-right:40px;  
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: #121212;
+}
+.homeie:link{
+
+    
+}
+.homeie:hover{
+
+    background-color:#333;
+
+}
+    
+
+.shorty{
+
+    margin:40px auto;
+    margin-top: 40px;
+    margin-right: 40px;  
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: #121212;
+
+
+}
+.shorty:link{
+
+    background-color: #121212;
+}
+.shorty:hover{
+
+    background-color:#333;
+
+}
+    
+
+.sub{
+    margin: 10px auto;
+    margin-right: 45px;  
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: #121212;
+}
+.sub:link{
+
+    background-color: #121212;
+}
+.sub:hover{
+
+    background-color:#333;
+
+}
+.lib{
+    width: 60px;
+    height: 60px;
+    border-radius: 5rem;
+    margin:40px auto;
+    margin-right: 40px;
+    background-color: #121212;
+}
+
+.lib:hover{
+
+    background-color: #333;
+
+}
+        
+
+/* all buttons css */
+
+.buttan{
+    width: 1500px;
+    display: flex;
+    height: 20px;
+    margin-left: 50px; 
+    margin-top: -10px;
+    /* margin-top: px;  */
+   
+    
+}
+
+
+
+
+button{
+    width: 550px;
+    height: 50px;
+    border-radius: 1rem;
+    border: none;
+    margin-left:20px ;
+    background-color: #6666;
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}   
+
+.button1{
+    background-color: white;
+    color: #000000;
+    width: 70px;
+
+
+}
+.button2{
+    /* background-color: white; */
+    /* color: #000000; */
+    width: 120px;
+}
+.button3{
+    width: 320px;
+}
+.button4{
+    width: 215px;
+}
+.button5{
+    width: 200px;
+}
+.button6{
+    width: 150px;
+}
+
+.button7{
+    width: 240px;
+}
+
+/* all thumbnails */
+
+.flexing{
+    display: flex;
+    margin-left: -90px;
+}
+
+.flexing2{
+    display: flex;
+    margin-left: -10px;
+}
+.flexing3{
+    display: flex;
+    margin-left: -10px;
+}
+
+
+
+p{
+    margin-left: 65px;
+    margin-top: 5px;
+    font-size: 22px;
+    color:#b8b6b6;
+}
+
+img{
+    cursor: pointer;
+
+}
+
+.img1{
+    width: 454px;
+ margin-top: 40px;
+ margin-left: 100px;
+ color: white;
+
+ 
+}
+
+.img2  {
+
+width: 600px;
+margin-top: 40px;
+margin-left:140px;
+color: white;
+border-radius: 0.5rem;
+}
+
+.img3  {
+
+    width: 654px;
+ margin-top: 40px;
+ margin-left:40px;
+ color: white;
+ border-radius: 0.5rem;
+}
+.img4 {
+
+    width: 604px;
+ margin-top: 60px;
+ margin-left: 10px;
+ color: white;
+ border-radius: 0.5rem;
+}
+.img5 {
+
+    width: 604px;
+ margin-top: 60px;
+ margin-left:5px;
+ color: white;
+ border-radius: 0.5rem;
+}
+
+.img6 {
+
+    width: 604px;
+ margin-top: 60px;
+ margin-left: 5 px;
+ color: white;
+ border-radius: 0.5rem;
+}
+
+.img7 {
+
+    width: 604px;
+ margin-top: 60px;
+ margin-left: 10px;
+ color: white;
+ border-radius: 0.5rem;
+}
+.img8 {
+
+    width: 604px;
+ margin-top: 60px;
+ margin-left:5px;
+ color: white;
+ border-radius: 0.5rem;
+}
+
+.img9 {
+
+    width: 604px;
+ margin-top: 60px;
+ margin-left: 5px;
+ color: white;
+ border-radius: 0.5rem;
+}
+
+
+h2{ 
+    margin-left: 15px;
+
+
+}
+
+.make {
+    display: flex;
+
+    margin-top: 20px;
+    
+}
+
+.logo{
+
+    border-radius: 50px;
+}
+img{
+
+        border-radius: 0.5rem;
+
+}
+
+
+
+h1{
+    color: aliceblue;
+    float:right;
+    
+}
+
+
+/* serchbar css */
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #181818; 
+    color: #fff; 
+}
+
+/* Style for the search container */
+.search-container {
+    display: flex;
+    justify-content: center;
+    display: flex;
+
+}
+
+/* Style for the search box */
+.search-box {
+    height: 60px;
+    width: 700px;
+    border: 1px solid #333; 
+    border-radius: 40px  0px 0px  40px;
+    font-size: 26px;
+    outline: none;
+    margin-top: -90px;
+    background-color: #121212; 
+    color: #fff; 
+
+    
+}
+
+.search-button{
+    width: 70px;
+    height: 60px;
+    border: 1px solid #333; 
+    border-radius:  0px  50px 50px  0px;
+    font-size: 16px;
+    outline: none;
+    background-color: #333; 
+    color: #fff; 
+    box-shadow:  1px 1px 1px 1px  black;
+    margin-top: -90px;
+    margin-left: -0px;
+}
+
+/* side buttons */
+
+.Searchlogo{
+    width: 30px;
+    margin-top: -20px ;
+
+}
+
+/* youtube icon */
+.youtube{
+
+    width: 20px;
+    height: 5px;
+    margin-bottom: 90px;
+    fill: currentColor white;
+  
+
+
+    /* scroll bar css */
+}
+::-webkit-scrollbar {
+    max-height: 70px; height: 200px;
+    width: 20px;
+    
+  }
+
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;    
+    max-height: 10px; height: 20px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+
+
+.box{
+    width: 200px;
+    height: 100px;
+    margin-top: 0px;
+    background-color: #fff;
+}
+
+footer{
+    height: 50PX;
+    width: 50PX;
+}
